@@ -5,14 +5,14 @@
   hl {
     margin: 0;
     padding-bottom: 0.5em;
-    font: 150% papyrus;
-    color: #226;
+    font: 150% Motorwerk;
+    color: #ca4400;
     border-bottom: 3px dotted #77d;
   }
   .entry {
     overflow: auto;
-    margin-top: lem;
-    border-bottome: 1px dotted #77d;
+    margin-top: 1em;
+    border-bottom: 1px dotted #77d;
     min-height: 100px;
 
     img {
@@ -23,17 +23,17 @@
     }
     h3 {
       font-size: 120%;
-      font-family: papyrus;
+      font-family: Motorwerk;
       margin-left: 100px;
       margin-top: 0;
       margin-bottom:2px;
-      color: #227;
+      color: #ca4400;
     }
 
     p, div.price_line {
       margin-left: 100px;
       margin-top: 0.5em;
-      margin-bottome: 0.8em;
+      margin-bottom: 0.8em;
     }
 
     .price {
