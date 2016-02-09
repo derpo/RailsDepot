@@ -19,12 +19,12 @@
      border-bottom: 2px solid;
      font: small-caps 40px/40px "Times New Roman", serif;
      color: #ca4400;
-     text-align: center;
+     text-align: center;}
 
  img {
      float: left;
      }
- }
+
 
  #notice {
      color: #000 !important;
@@ -36,7 +36,7 @@
      }
 
  #columns {
-     background: rgba(17, 68, 17, 0);
+     background: rgba(17, 68, 17, 0);}
 
  #main {
      margin-left: 17em;
@@ -48,14 +48,14 @@
      float: left;
      padding: 1em 2em;
       width: 13em;
-      background: rgba(17, 68, 17, 0);
+      background: rgb(184, 230, 255);}
 
  ul {
-     padding: 0;
+     padding: 0;}
  li {
-     list-style: none;
+     list-style: none;}
  a {
-     color: #bfb;
+     color: #cc4e13;
      font-size: small;
      }
 
