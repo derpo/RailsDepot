@@ -1,4 +1,9 @@
 /**
  * Created by Kids on 3/5/2016.
  */
+if ($('#cart tr').length == 1) { $('#cart').show('blind', 1000); }
+
 $('#cart').html("<%= escape_javascript render(@cart) %>");
+
+$('#current_item').css({'background-color':'#88ff88'}).
+animate({'background-color':'#114411'}, 1000);

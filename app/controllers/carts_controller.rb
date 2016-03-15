@@ -64,8 +64,8 @@ class CartsController < ApplicationController
     session[:cart_id] = nil
     @cart.destroy
     respond_to do |format|
-      format.html { redirect_to store_url,
-      notice: 'Your cart is currently empty' }
+      format.html { redirect_to store_url }
+      notice; 'Your cart is currently empty';
       format.html { redirect_to carts_url, notice: 'Cart was successfully destroyed.' }
       format.json { head :no_content }
     end
