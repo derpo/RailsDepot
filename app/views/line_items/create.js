@@ -1,6 +1,8 @@
 /**
  * Created by Kids on 3/5/2016.
  */
+$('#notice').hide();
+
 if ($('#cart tr').length == 1) { $('#cart').show('blind', 1000); }
 
 $('#cart').html("<%= escape_javascript render(@cart) %>");
