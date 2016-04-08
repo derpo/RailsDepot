@@ -6,7 +6,7 @@ class UserStoriesTest < ActionDispatch::IntegrationTest
   # end
   LineItem.delete_all
   Order.delete_all
-  ruby_book = products(:ruby)
+  ruby_book = products (:ruby)
 
   get "/"
   assert_response :success
